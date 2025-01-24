@@ -94,6 +94,9 @@ playwright install
     ```bash
     python webui.py --ip 127.0.0.1 --port 7788
     ```
+
+   # Start Chrome with remote debugging port enabled
+Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "--remote-debugging-port=9222"
 4. WebUI options:
    - `--ip`: The IP address to bind the WebUI to. Default is `127.0.0.1`.
    - `--port`: The port to bind the WebUI to. Default is `7788`.
